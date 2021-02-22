@@ -5,6 +5,10 @@ ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+# 画像処理ライブラリ
+gem 'mini_magick'
+#ファイルを簡単かつ柔軟にアップロードする
+gem 'carrierwave', '~> 2.0'
 # ユーザー登録やログイン機能など認証に必要な機能を追加
 gem 'devise'
 # Use sqlite3 as the database for Active Record
