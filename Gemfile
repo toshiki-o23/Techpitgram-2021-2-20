@@ -14,7 +14,7 @@ gem 'carrierwave', '~> 2.0'
 # ユーザー登録やログイン機能など認証に必要な機能を追加
 gem 'devise'
 # Use sqlite3 as the database for Active Record
-# gem 'sqlite3', '~> 1.4※SQLiteとpostgreSQLとかぶるのでコメントアウト
+gem 'sqlite3', '~> 1.4', group: :development
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
