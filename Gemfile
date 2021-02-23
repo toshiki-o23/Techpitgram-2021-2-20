@@ -5,6 +5,8 @@ ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+# 本番環境にてpostgresqlと通信
+gem 'pg', group: :production
 # 画像処理ライブラリ
 gem 'mini_magick'
 #ファイルを簡単かつ柔軟にアップロードする
